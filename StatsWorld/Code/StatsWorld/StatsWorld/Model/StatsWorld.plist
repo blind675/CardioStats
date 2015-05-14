@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Elements</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Treadmill</string>
+			<key>Description</key>
+			<string>Run on the treadmill</string>
+			<key>CurrentValue</key>
+			<integer>1</integer>
+			<key>SpeedStartValue</key>
+			<real>7.5</real>
+			<key>SpeedIncreaseValue</key>
+			<real>0.1</real>
+			<key>SpeenIncreaseAtPoints</key>
+			<integer>1</integer>
+			<key>SpeedResetInterval</key>
+			<integer>10</integer>
+			<key>TimeStartValue</key>
+			<integer>20</integer>
+			<key>TimeIncreaseValue</key>
+			<integer>5</integer>
+			<key>TimeIncreaseAtPoints</key>
+			<integer>10</integer>
+			<key>PenaltyPerDay</key>
+			<real>0.5</real>
+			<key>LastTimePointAdded</key>
+			<date>2015-03-30T07:16:40Z</date>
+			<key>LastTimeUpdated</key>
+			<date>2015-03-30T07:16:40Z</date>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Jogging</string>
+			<key>Description</key>
+			<string>Jog outside in the park</string>
+			<key>CurrentValue</key>
+			<integer>1</integer>
+			<key>TimeStartValue</key>
+			<integer>20</integer>
+			<key>TimeIncreaseValue</key>
+			<integer>5</integer>
+			<key>TimeIncreaseAtPoints</key>
+			<integer>10</integer>
+			<key>PenaltyPerDay</key>
+			<real>0.5</real>
+			<key>LastTimePointAdded</key>
+			<date>2015-03-16T08:16:40Z</date>
+			<key>LastTimeUpdated</key>
+			<date>2015-03-30T07:16:40Z</date>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Team Sport</string>
+			<key>Description</key>
+			<string>Play some sport of your choosing</string>
+			<key>CurrentValue</key>
+			<integer>0</integer>
+			<key>TimeStartValue</key>
+			<integer>50</integer>
+			<key>PenaltyPerDay</key>
+			<real>0.14</real>
+			<key>LastTimePointAdded</key>
+			<date>2015-03-16T08:16:40Z</date>
+			<key>LastTimeUpdated</key>
+			<date>2015-03-30T07:16:40Z</date>
+		</dict>
+	</array>
+</dict>
+</plist>
