@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AVFoundation
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -17,7 +16,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     weak var panelController:JASidePanelMainController?
     weak var contentViewController: ContentViewControler?
-    
     
     
     override func viewDidLoad() {

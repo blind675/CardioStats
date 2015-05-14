@@ -10,7 +10,15 @@ import UIKit
 
 class RightMenuController : UIViewController {
  
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    @IBAction func speackButtonPressed() {
+        SpeakingTexts.speackText(SpeakingTexts.descriptionText)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        descriptionLabel.text = SpeakingTexts.descriptionText
     }
 }

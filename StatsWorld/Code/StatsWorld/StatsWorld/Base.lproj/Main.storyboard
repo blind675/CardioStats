@@ -174,22 +174,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEZ-7e-YPr">
-                                <rect key="frame" x="100" y="40" width="480" height="540"/>
-                                <string key="text">Welcome to CardioStats. This is an am to help you get in shape and obtain the form you have been wanting all your life. All You have to do is track your cardio activiti and always follow the guides. If you are aked to do a certain thing for next point please do so. When the top bar will become green you will become happy with your bodey. Money back guarantee.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEZ-7e-YPr">
+                                <rect key="frame" x="100" y="40" width="480" height="472"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmj-eY-LOP">
+                                <rect key="frame" x="504" y="520" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="P1O-gW-Xak"/>
+                                    <constraint firstAttribute="width" constant="40" id="wh6-GF-R1C"/>
+                                </constraints>
+                                <state key="normal" image="speak.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="speackButtonPressed" destination="OE8-qf-neX" eventType="touchUpInside" id="NxA-Hv-aty"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8j2-OJ-C9d" firstAttribute="top" secondItem="Dmj-eY-LOP" secondAttribute="bottom" constant="40" id="2cp-x8-ivm"/>
                             <constraint firstAttribute="trailing" secondItem="FEZ-7e-YPr" secondAttribute="trailing" constant="20" id="4MX-DP-7sx"/>
                             <constraint firstItem="FEZ-7e-YPr" firstAttribute="top" secondItem="gI7-ZW-gJG" secondAttribute="bottom" constant="20" id="Gr7-jP-16M"/>
                             <constraint firstItem="FEZ-7e-YPr" firstAttribute="leading" secondItem="xZ8-bt-7Wx" secondAttribute="leading" constant="100" id="cPK-Tn-qFG"/>
-                            <constraint firstItem="8j2-OJ-C9d" firstAttribute="top" secondItem="FEZ-7e-YPr" secondAttribute="bottom" constant="20" id="qcy-f4-r9x"/>
+                            <constraint firstItem="Dmj-eY-LOP" firstAttribute="top" secondItem="FEZ-7e-YPr" secondAttribute="bottom" constant="8" id="gJ9-tF-DkG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dmj-eY-LOP" secondAttribute="trailing" constant="40" id="hDL-5S-gqA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="FEZ-7e-YPr" id="aii-u1-dPZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xma-nm-2lq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -397,4 +414,7 @@
             <point key="canvasLocation" x="333" y="905"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="speak.png" width="256" height="256"/>
+    </resources>
 </document>
