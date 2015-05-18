@@ -53,9 +53,12 @@ class ContentViewControler: UIViewController {
 //            println("1: \(entry)")
         updateWithDataForTableRowIndex(selectedIndex)
 //            println("2: \(entry)")
-        
     }
 
+    @IBAction func SpeachButtonPresed() {
+        
+    }
+    
     func updateWithDataForTableRowIndex(index:Int) {
     
         if let entry = StatsModel.currentlySelectedEntry {

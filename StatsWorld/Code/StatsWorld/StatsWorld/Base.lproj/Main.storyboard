@@ -175,16 +175,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEZ-7e-YPr">
-                                <rect key="frame" x="100" y="40" width="480" height="472"/>
+                                <rect key="frame" x="100" y="40" width="480" height="477"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmj-eY-LOP">
-                                <rect key="frame" x="504" y="520" width="40" height="40"/>
+                                <rect key="frame" x="509" y="525" width="35" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="P1O-gW-Xak"/>
-                                    <constraint firstAttribute="width" constant="40" id="wh6-GF-R1C"/>
+                                    <constraint firstAttribute="height" constant="35" id="P1O-gW-Xak"/>
+                                    <constraint firstAttribute="width" constant="35" id="wh6-GF-R1C"/>
                                 </constraints>
                                 <state key="normal" image="speak.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -239,7 +239,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description something lorem ipsum lorem ipsului lopsuuum lorem loerem mode than lorem ipsum is ipsulum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ryu-GE-POT">
-                                <rect key="frame" x="0.0" y="0.0" width="493" height="45"/>
+                                <rect key="frame" x="22" y="0.0" width="471" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Pyf-lL-ri9"/>
                                 </constraints>
@@ -376,6 +376,16 @@
                                     <constraint firstItem="wXb-HC-x1q" firstAttribute="top" secondItem="imC-VU-smU" secondAttribute="bottom" constant="8" symbolic="YES" id="z2b-yq-qXc"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1H-ZK-hs9">
+                                <rect key="frame" x="0.0" y="11" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="3vI-FX-mBU"/>
+                                    <constraint firstAttribute="width" constant="20" id="yhM-Pc-A5i"/>
+                                </constraints>
+                                <state key="normal" image="speak.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -386,12 +396,20 @@
                             <constraint firstItem="iOB-QU-Zb5" firstAttribute="leading" secondItem="D9u-p5-Ah6" secondAttribute="leading" id="MYB-gz-OJ0"/>
                             <constraint firstItem="QMX-Bv-zQe" firstAttribute="top" secondItem="iOB-QU-Zb5" secondAttribute="bottom" constant="6" id="ONj-oI-P7j"/>
                             <constraint firstItem="Ryu-GE-POT" firstAttribute="top" secondItem="jfV-A2-e2T" secondAttribute="bottom" id="SmW-Ji-z6I"/>
-                            <constraint firstItem="Ryu-GE-POT" firstAttribute="leading" secondItem="D9u-p5-Ah6" secondAttribute="leading" id="VvO-zO-nFO"/>
+                            <constraint firstItem="Ryu-GE-POT" firstAttribute="leading" secondItem="D9u-p5-Ah6" secondAttribute="leading" constant="25" id="VvO-zO-nFO"/>
+                            <constraint firstItem="Y1H-ZK-hs9" firstAttribute="leading" secondItem="D9u-p5-Ah6" secondAttribute="leading" id="Y4h-u8-uas"/>
                             <constraint firstAttribute="trailing" secondItem="yFl-jN-qsp" secondAttribute="trailing" id="boP-a0-AAZ"/>
                             <constraint firstItem="iOB-QU-Zb5" firstAttribute="top" secondItem="Ryu-GE-POT" secondAttribute="bottom" constant="2" id="dEF-8Y-2Tq"/>
                             <constraint firstItem="QMX-Bv-zQe" firstAttribute="leading" secondItem="D9u-p5-Ah6" secondAttribute="leading" id="iUL-cw-Qss"/>
+                            <constraint firstItem="Y1H-ZK-hs9" firstAttribute="top" secondItem="jfV-A2-e2T" secondAttribute="bottom" constant="11" id="jJz-ny-gbM"/>
+                            <constraint firstItem="Ryu-GE-POT" firstAttribute="leading" secondItem="Y1H-ZK-hs9" secondAttribute="trailing" constant="2" id="mDW-ev-8QN"/>
                             <constraint firstItem="yFl-jN-qsp" firstAttribute="leading" secondItem="Ryu-GE-POT" secondAttribute="trailing" constant="5" id="udg-Pm-5II"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VvO-zO-nFO"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <connections>
