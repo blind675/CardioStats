@@ -24,8 +24,12 @@
 		C480FA111B03A53200FEC103 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = C480FA0E1B03A53200FEC103 /* JASidePanelController.m */; };
 		C480FA141B03A76000FEC103 /* JASidePanelMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480FA131B03A76000FEC103 /* JASidePanelMainController.swift */; };
 		C480FA181B03AAD200FEC103 /* RightMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480FA171B03AAD200FEC103 /* RightMenuController.swift */; };
+		C48ECB441B134EF9005CBF56 /* 29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48ECB431B134EF9005CBF56 /* 29@2x.png */; };
+		C48ECB4A1B134F75005CBF56 /* splash640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = C48ECB461B134F75005CBF56 /* splash640x1136.png */; };
+		C48ECB4B1B134F75005CBF56 /* splash640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = C48ECB471B134F75005CBF56 /* splash640x960.png */; };
+		C48ECB4C1B134F75005CBF56 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48ECB481B134F75005CBF56 /* splash@2x.png */; };
+		C48ECB4D1B134F75005CBF56 /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48ECB491B134F75005CBF56 /* splash@3x.png */; };
 		C48FB6881ACE6FA700025E07 /* StatsBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48FB6871ACE6FA700025E07 /* StatsBaseModel.swift */; };
-		C49B8E0B1AEFE09F0047312D /* 29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B8E051AEFE09F0047312D /* 29@2x.png */; };
 		C49B8E0C1AEFE09F0047312D /* 29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B8E061AEFE09F0047312D /* 29@3x.png */; };
 		C49B8E0D1AEFE09F0047312D /* 40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B8E071AEFE09F0047312D /* 40@2x.png */; };
 		C49B8E0E1AEFE09F0047312D /* 40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B8E081AEFE09F0047312D /* 40@3x.png */; };
@@ -70,8 +74,12 @@
 		C480FA0E1B03A53200FEC103 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
 		C480FA131B03A76000FEC103 /* JASidePanelMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JASidePanelMainController.swift; sourceTree = "<group>"; };
 		C480FA171B03AAD200FEC103 /* RightMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuController.swift; sourceTree = "<group>"; };
+		C48ECB431B134EF9005CBF56 /* 29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29@2x.png"; sourceTree = "<group>"; };
+		C48ECB461B134F75005CBF56 /* splash640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash640x1136.png; sourceTree = "<group>"; };
+		C48ECB471B134F75005CBF56 /* splash640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash640x960.png; sourceTree = "<group>"; };
+		C48ECB481B134F75005CBF56 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		C48ECB491B134F75005CBF56 /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@3x.png"; sourceTree = "<group>"; };
 		C48FB6871ACE6FA700025E07 /* StatsBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatsBaseModel.swift; path = Model/StatsBaseModel.swift; sourceTree = "<group>"; };
-		C49B8E051AEFE09F0047312D /* 29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29@2x.png"; sourceTree = "<group>"; };
 		C49B8E061AEFE09F0047312D /* 29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29@3x.png"; sourceTree = "<group>"; };
 		C49B8E071AEFE09F0047312D /* 40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@2x.png"; sourceTree = "<group>"; };
 		C49B8E081AEFE09F0047312D /* 40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@3x.png"; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 		C40AA7201AEEC9E40043F399 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				C48ECB451B134F75005CBF56 /* Splash */,
 				C4FC08B11B04A2E500437283 /* speakOrange.gif */,
 				C4FC08AF1B04A2DD00437283 /* speak.png */,
 				C40AA7211AEEC9E40043F399 /* icons */,
@@ -123,7 +132,7 @@
 		C40AA7211AEEC9E40043F399 /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				C49B8E051AEFE09F0047312D /* 29@2x.png */,
+				C48ECB431B134EF9005CBF56 /* 29@2x.png */,
 				C49B8E061AEFE09F0047312D /* 29@3x.png */,
 				C49B8E071AEFE09F0047312D /* 40@2x.png */,
 				C49B8E081AEFE09F0047312D /* 40@3x.png */,
@@ -258,6 +267,17 @@
 			name = menuController;
 			sourceTree = "<group>";
 		};
+		C48ECB451B134F75005CBF56 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C48ECB461B134F75005CBF56 /* splash640x1136.png */,
+				C48ECB471B134F75005CBF56 /* splash640x960.png */,
+				C48ECB481B134F75005CBF56 /* splash@2x.png */,
+				C48ECB491B134F75005CBF56 /* splash@3x.png */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		C48FB6861ACE6F2300025E07 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,17 +369,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48ECB4B1B134F75005CBF56 /* splash640x960.png in Resources */,
 				C47842151AA241AF004DB5EE /* Main.storyboard in Resources */,
+				C48ECB441B134EF9005CBF56 /* 29@2x.png in Resources */,
 				C49B8E101AEFE09F0047312D /* 60@3x.png in Resources */,
 				C454BF4B1AB5DC8100FFFAD8 /* StatsWorld.plist in Resources */,
 				C4FC08B01B04A2DD00437283 /* speak.png in Resources */,
+				C48ECB4D1B134F75005CBF56 /* splash@3x.png in Resources */,
 				C478421A1AA241AF004DB5EE /* LaunchScreen.xib in Resources */,
 				C49B8E0E1AEFE09F0047312D /* 40@3x.png in Resources */,
-				C49B8E0B1AEFE09F0047312D /* 29@2x.png in Resources */,
 				C49B8E0F1AEFE09F0047312D /* 60@2x.png in Resources */,
 				C49B8E0D1AEFE09F0047312D /* 40@2x.png in Resources */,
+				C48ECB4C1B134F75005CBF56 /* splash@2x.png in Resources */,
 				C49B8E0C1AEFE09F0047312D /* 29@3x.png in Resources */,
 				C47842171AA241AF004DB5EE /* Images.xcassets in Resources */,
+				C48ECB4A1B134F75005CBF56 /* splash640x1136.png in Resources */,
 				C4FC08B21B04A2E500437283 /* speakOrange.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StatsWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -527,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StatsWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;

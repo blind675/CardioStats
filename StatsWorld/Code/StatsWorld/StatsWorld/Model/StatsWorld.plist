@@ -10,7 +10,7 @@
 			<key>Description</key>
 			<string>Run on the treadmill</string>
 			<key>CurrentValue</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>SpeedStartValue</key>
 			<real>7.5</real>
 			<key>SpeedIncreaseValue</key>
@@ -38,7 +38,7 @@
 			<key>Description</key>
 			<string>Jog outside in the park</string>
 			<key>CurrentValue</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>TimeStartValue</key>
 			<integer>20</integer>
 			<key>TimeIncreaseValue</key>

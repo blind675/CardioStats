@@ -57,6 +57,7 @@ class ContentViewControler: UIViewController {
 
     @IBAction func SpeachButtonPresed() {
         
+        SpeakingTexts.speakForTheNextPoint()
     }
     
     func updateWithDataForTableRowIndex(index:Int) {
@@ -205,11 +206,11 @@ class ContentViewControler: UIViewController {
             lastUpdateLabel.attributedText = lastUpdateMutableString
             
             // neede for next point
-            let infoString:NSString = "Needed for next point: \(entry.speedNeedeForNextPoint) speed - \(entry.timeNeededForNextPoint) min"
+            let infoString:NSString = "Needed for next point: \(entry.timeNeededForNextPoint) min - \(entry.speedNeedeForNextPoint) speed"
             
             var totalStringRange = NSRange(location: 0, length: infoString.length)
-            var speedStringRange = NSRange(location: 23, length: 4)
-            var timeStringRange = NSRange(location: 35, length: 3)
+            var speedStringRange = NSRange(location: 23, length: 2)
+            var timeStringRange = NSRange(location: 32, length: 3)
             
             var infoMutableString = NSMutableAttributedString(string: infoString as String)
             
