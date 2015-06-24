@@ -212,9 +212,9 @@ class StatsBaseModel {
             let components = cal!.components(unit, fromDate:entry.lastTimeUpdated , toDate:today , options: nil)
             
             if let penality = entry.penaltyPerDay {
-                if components.day > 1 {
+                if components.day > 2 {
                     
-                    entry.currentValue -= Float(components.day - 1) * penality
+                    entry.currentValue -= Float(components.day - 2) * penality
                     entry.currentValue = entry.currentValue < 0 ? 0.0 : entry.currentValue
                     
                     entryList[index] = entry

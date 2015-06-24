@@ -84,6 +84,9 @@ class StatsModel {
                 }
                 
                 NSUserDefaults.standardUserDefaults().setObject(today, forKey:kLastAddedDateKey)
+                
+                // save the plist
+                StatsBaseModel.sharedInstance.saveEntryList()
             }
         }
     }

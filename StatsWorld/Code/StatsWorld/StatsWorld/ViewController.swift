@@ -30,6 +30,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         refreshUI()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        // reset the score if neede
+        StatsBaseModel.sharedInstance.updateAllEntry()
+    }
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
