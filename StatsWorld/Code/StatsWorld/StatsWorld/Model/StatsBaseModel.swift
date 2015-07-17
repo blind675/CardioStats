@@ -55,7 +55,7 @@ struct StatsEntry: Printable {
     
     
     var description: String {
-        return "Name:\(name) - Description:\(entryDescription) - Value:\(currentValue)"
+        return "Name:\(name) - Description:\(entryDescription) - Value:\(currentValue) \n\t\t - TimeIncrease:\(timeIncreaseValue) - TimeResetAt:\(timeResetInterval) - TimeIncreaseAt:\(timeIncreaseAtPoints) \n\t\t - SpeedIncrease:\(speedIncreaseValue) - SpeedResetAt:\(speedResetInterval) - SpeedIncreaseAt:\(speedResetInterval) "
     }
 
 }
@@ -178,15 +178,15 @@ class StatsBaseModel {
                 convertedElement["SpeedResetInterval"] = speedReset
             }
             
-            if let timeIncrease =  element.speedIncreaseValue {
+            if let timeIncrease =  element.timeIncreaseValue {
                 convertedElement["TimeIncreaseValue"] = timeIncrease
             }
             
-            if let timeAtPoint = element.speedIncreaseAtPoints {
+            if let timeAtPoint = element.timeIncreaseAtPoints {
                 convertedElement["TimeIncreaseAtPoints"] = timeAtPoint
             }
             
-            if let timeReset =  element.speedResetInterval {
+            if let timeReset =  element.timeResetInterval {
                 convertedElement["TimeResetInterval"] = timeReset
             }
 
